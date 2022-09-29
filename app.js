@@ -15,7 +15,7 @@ app.get("/me", (request, response) => {
 app.post("/metas", (req, res) => {
   console.log(res.method);
   res.status(200).json({
-    hobbies: ["Programar", "Leer", "Meditar"],
+    hobbies: ["Code", "Read", "Meditate"],
     verb: req.method,
   });
 });
